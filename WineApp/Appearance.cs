@@ -3,14 +3,16 @@ namespace WineApp
 {
     public class Appearance
     {
-        public int Color { get; set; }
-        public int Clarity { get; set; }
-        public int Intensity { get; set; }
-        public string Effervescence { get; set; }
-        public int Viscosity { get; set; }
-        public string RimVariation { get; set; }
-        public int Sediment { get; set; }
-        public string OverallPresentation { get; set; }
+        public List<string> hue { get; set; }
+        public int colorIntensity { get; set; }
+        public List<string> rimVariation { get; set; }
+        public List<string> transparancy { get; set; }
+        public List<string> clarity { get; set; }
+        public List<string> effervescence { get; set; }
+        public List<string> carbonation { get; set; }
+        public List<string> viscosity { get; set; }
+        public List<string> sediment { get; set; }
+        public List<string> corkCondition { get; set; }
     }
 }
 

@@ -3,16 +3,19 @@ namespace WineApp
 {
     public class Vineyard
     {
-        public string Location { get; set; }
-        public string OverallTerroir { get; set; }
-        public List<string> GrapeVarieties { get; set; }
-        public string VineyardManagement { get; set; }
-        public string VineAge { get; set; }
-        public int AverageYield { get; set; }
-        public string Philosophy { get; set; }
-        public string ReputationAndQuality { get; set; }
-        public string HistoricalSignificance { get; set; }
-        public List<string> NotableWines { get; set; }
+        public string name { get; set; }
+        public string location { get; set; }
+        public string overallTerroir { get; set; }
+        public List<string> grapeVarieties { get; set; }
+        public string vineyardManagement { get; set; }
+        public DateOnly vineyardAge { get; set; }
+        public int vineyardSize { get; set; }
+        public string vineAge { get; set; }
+        public static int averageYield { get; set; }
+        public string philosophy { get; set; }
+        public string reputationAndQuality { get; set; }
+        public string historicalSignificance { get; set; }
+        public List<string> notableWines { get; set; }
     }
 }
 

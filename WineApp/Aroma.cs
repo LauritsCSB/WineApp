@@ -3,12 +3,16 @@ namespace WineApp
 {
     public class Aroma
     {
-        public int Strength { get; set; }
-        public string PrimaryGrapeNotes { get; set; }
-        public string SecondaryWinemakingNotes { get; set; }
-        public string TertiaryBottleNotes { get; set; }
-        public string OverallAssessment { get; set; }
-        public string OffNotes { get; set; }
+        public int intensity { get; set; }
+        public List<string> complexity { get; set; }
+        public List<string> primary { get; set; }
+        public List<string> secondary { get; set; }
+        public List<string> tertiary { get; set; }
+        public List<string> floranAndHerbal { get; set; }
+        public bool oak { get; set; }
+        public List<string> balance { get; set; }
+        public List<string> offOrFault { get; set; }
+        public List<string> persistence { get; set; }
     }
 }
 
