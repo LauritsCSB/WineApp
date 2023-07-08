@@ -14,10 +14,10 @@ namespace WineApp
         public List<string> generalWindPattern { get; set; }
         public List<string> mothlyFrostRisk { get; set; }
 
-        public string OverallClimate(List<int> monthlyAveregeTemperature, more?)
+        /*public string OverallClimate(List<int> monthlyAveregeTemperature, more?)
         {
             //method returning valuation of overall climate ("warm", "cool, "moderate") based on climatic input
-        }
+        }*/
     }
 }
 
