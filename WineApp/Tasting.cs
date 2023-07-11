@@ -1,56 +1,44 @@
-﻿using System;
-namespace WineApp
+﻿namespace WineApp
 {
     public class Tasting
     {
-        public DateTime CurrentDate { get; set; }
-        public string Place { get; set; }
-        public string Occasion { get; set; }
+        public DateTime date { get; set; }
+        public string place { get; set; }
+        public string occasion { get; set; }
 
+        public Appearance.AppearanceDefaults colorHue { get; set; }
+        public Appearance.AppearanceDefaults colorIntensity { get; set; }
+        public Appearance.AppearanceDefaults colorRimVariation { get; set; }
+        public Appearance.AppearanceDefaults colorTransparancy { get; set; }
+        public Appearance.AppearanceDefaults wineEffervescence { get; set; }
+        public Appearance.AppearanceDefaults wineViscosity { get; set; }
+        public Appearance.AppearanceDefaults sediment { get; set; }
+        public Appearance.AppearanceDefaults corkCondition { get; set; }
 
-        public List<Appearance> hue { get; set; }
-        public Appearance colorIntensity { get; set; }
-        public List<Appearance> rimVariation { get; set; }
-        public List<Appearance> transparancy { get; set; }
-        public List<Appearance> clarity { get; set; }
-        public List<Appearance> effervescence { get; set; }
-        public List<Appearance> carbonation { get; set; }
-        public List<Appearance> viscosity { get; set; }
-        public List<Appearance> sediment { get; set; }
-        public List<Appearance> corkCondition { get; set; }
+        public Aroma.AromaDefaults aromaIntensity { get; set; }
+        public Aroma.AromaDefaults aromaComplexity { get; set; }
+        public List<Aroma.AromaDefaults> primaryAromas { get; set; }
+        public List<Aroma.AromaDefaults> secondaryAromas { get; set; }
+        public List<Aroma.AromaDefaults> tertiaryAromas { get; set; }
+        public List<Aroma.AromaDefaults> offOrFaultAromas { get; set; }
+        public Aroma.AromaDefaults aromaBalance { get; set; }
+        public Aroma.AromaDefaults aromaPersistence { get; set; }
 
-        public Aroma aromaIntensity { get; set; }
-        public List<Aroma> complexity { get; set; }
-        public List<Aroma> primary { get; set; }
-        public List<Aroma> secondary { get; set; }
-        public List<Aroma> tertiary { get; set; }
-        public List<Aroma> floranAndHerbal { get; set; }
-        public Aroma oak { get; set; }
-        public List<Aroma> balance { get; set; }
-        public List<Aroma> offOrFault { get; set; }
-        public List<Aroma> persistence { get; set; }
+        public List<Flavor.FlavorDefaults> primaryFlavours { get; set; }
+        public List<Flavor.FlavorDefaults> secondaryFlavours { get; set; }
+        public List<Flavor.FlavorDefaults> tertiaryFlavours { get; set; }
+        public List<Flavor.FlavorDefaults> offOrFaultFlavours { get; set; }
+        public Flavor.FlavorDefaults flavorBalance { get; set; }
+        public Flavor.FlavorDefaults flavorSweetness { get; set; }
+        public Flavor.FlavorDefaults flavorLengthAndFinish { get; set; }
+        public Flavor.FlavorDefaults flavorComplexity { get; set; }
 
-        public List<Flavor> primaryFlavours { get; set; }
-        public List<Flavor> secondaryFlavours { get; set; }
-        public List<Flavor> tertiaryFlavours { get; set; }
-        public List<Flavor> flavorBalance { get; set; }
-        public Flavor oakInfluence { get; set; }
-        public Flavor sweetness { get; set; }
-        public Flavor acidity { get; set; }
-        public List<Flavor> lengthAndFinish { get; set; }
-        public List<Flavor> flavorComplexity { get; set; }
-
-        public List<Body> weight { get; set; }
-        public List<Body> texture { get; set; }
-        public List<Body> mouthCoating { get; set; }
-        public List<Body> tannins { get; set; }
-        public List<Body> alcoholFeel { get; set; }
-        public List<Body> intensity { get; set; }
-
-        public Texture smoothness { get; set; }
-        public Texture silkiness { get; set; }
-        public Texture creaminess { get; set; }
-        public Texture crispness { get; set; }
+        public Body.BodyDefaults weight { get; set; }
+        public Body.BodyDefaults texture { get; set; }
+        public Body.BodyDefaults mouthCoating { get; set; }
+        public Body.BodyDefaults tannins { get; set; }
+        public Body.BodyDefaults alcoholFeel { get; set; }
+        public Body.BodyDefaults intensity { get; set; }
     }
 }
 

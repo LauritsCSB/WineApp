@@ -8,8 +8,8 @@
         public List<string> offOrFault { get; set; }
         public string balance { get; set; }
         public string sweetness { get; set; }
-        public List<string> lengthAndFinish { get; set; }
-        public List<string> complexity { get; set; }
+        public string lengthAndFinish { get; set; }
+        public string complexity { get; set; }
     }
 }
 

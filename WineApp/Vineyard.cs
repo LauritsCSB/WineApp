@@ -1,5 +1,4 @@
-﻿using System;
-namespace WineApp
+﻿namespace WineApp
 {
     public class Vineyard
     {

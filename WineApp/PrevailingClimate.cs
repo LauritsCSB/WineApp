@@ -3,21 +3,24 @@ namespace WineApp
 {
     public class PrevailingClimate
     {
-        public List<int> monthlyTemperatureMin { get; set; }
-        public List<int> monthlyTemperatureMax { get; set; }
-        public List<int> monthlyTemperatureAverage { get; set; }
-        public List<int> monthlyAverageGDD { get; set; }
-        public List<int> monthlyAveragesunshineHours { get; set; }
-        public List<int> monthlyAveragerainfall { get; set; }
-        public List<int> monthlyDiurnalTemperatureVariation { get; set; }
-        public List<int> monthlyHumidutyLevel { get; set; }
-        public List<string> generalWindPattern { get; set; }
-        public List<string> mothlyFrostRisk { get; set; }
+        public Region regionName { get; set; }
+        //Use constructor to set month, rest of properties is updated to hold values for that?
+        public int temperatureMin { get; set; }
+        public int temperatureMax { get; set; }
+        public double temperatureAverage { get; set; }
+        public int averageGDD { get; set; }
+        public int averagesunshineHours { get; set; }
+        public int averagerainfall { get; set; }
+        public int diurnalTemperatureVariation { get; set; }
+        public int humidutyLevel { get; set; }
+        public string frostRisk { get; set; }
 
         /*public string OverallClimate(List<int> monthlyAveregeTemperature, more?)
         {
             //method returning valuation of overall climate ("warm", "cool, "moderate") based on climatic input
         }*/
+
+        //method or field to display general data for climate of a region and/or country?
     }
 }
 

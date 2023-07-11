@@ -1,22 +1,21 @@
-﻿using System;
-namespace WineApp
+﻿namespace WineApp
 {
     public class Season
     {
-        public List<DateOnly> vintage { get; set; }
-        public List<PrevailingClimate> averageMonthlyRainfall { get; set; }
-        public List<PrevailingClimate> averageMonthlyTemperature { get; set; }
-        public List<PrevailingClimate> averageMonthlySunlight { get; set; }
-        public List<PrevailingClimate> averageMonthlyGDD { get; set; }
-        public List<int> monthlyDaysOfFrost { get; set; }
-        public List<int> monthlyDaysOfHail { get; set; }
-        public string grapeDevelopment { get; set; }
+        public DateOnly vintage { get; set; }
+        public List<PrevailingClimate> rainfallAverage { get; set; }
+        public List<PrevailingClimate> temperatureAverage { get; set; }
+        public List<PrevailingClimate> sunlightExposure { get; set; }
+        public List<PrevailingClimate> growingDegreeDays { get; set; }
+        public int daysOfFrost { get; set; }
+        public int daysOfHail { get; set; }
+        public string grapeDevelopmentEvaluation { get; set; }
         public string cropSize { get; set; }
         public string cropYield { get; set; }
         public string grapeHealth { get; set; }
         public string harvestTiming { get; set; }
         public string overallVintageQuality { get; set; }
-        public int agingPotential { get; set; }
+        public string agingPotential { get; set; }
     }
 }
 
