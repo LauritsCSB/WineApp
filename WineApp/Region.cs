@@ -3,18 +3,18 @@ namespace WineApp
 {
     public class Region
     {
-        public string name { get; set; }
-        public Country country { get; set; }
-        public List<Grape> grapeVarieties { get; set; }
-        public PrevailingClimate generalClimate { get; set; }
-        public List<MicroClimate> microClimates { get; set; }
-        public List<SoilComposition> generalSoilTypes { get; set; }
-        public string generalTopography { get; set; }
-        public WinemakingTradition tourismAndCulture { get; set; }
-        public string historicalSignificance { get; set; }
-        public List<Grape> wineStyles { get; set; }
-        public List<Vineyard> notableProducers { get; set; }
-        public string regionalWindPattern { get; set; }
+        public string nameOfRegion { get; set; }
+        public Country countryOfRegion { get; set; }
+        public List<Grape> grapeVarietiesInRegion { get; set; }
+        public PrevailingClimate generalClimateOfRegion { get; set; }
+        public List<MicroClimate> microClimatesInRegion { get; set; }
+        public List<SoilComposition.SoilDefaults> generalSoilTypesInRegion { get; set; }
+        public string generalTopographyOfRegion { get; set; }
+        public string historicalSignificanceOfRegion { get; set; }
+        public List<Grape> commonWineStylesInRegion { get; set; }
+        public List<Vineyard> notableProducersOfRegion { get; set; }
+        public string regionalWindPatternInRegion { get; set; }
+        public string wineMakingRegulationOfRegion { get; set; }
     }
 }
 

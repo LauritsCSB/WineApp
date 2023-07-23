@@ -3,13 +3,13 @@ namespace WineApp.Appearance
 {
     public class Appearance
     {
-        public string hue { get; set; }
+        public string hueColor { get; set; }
         public string colorIntensity { get; set; }
-        public string rimVariation { get; set; }
-        public string transparancy { get; set; }
-        public string effervescence { get; set; }
+        public string colorRimVariation { get; set; }
+        public string wineTransparancy { get; set; }
+        public string effervescenceIntensity { get; set; }
         public string viscosity { get; set; }
-        public string sediment { get; set; }
+        public string sedimentAmount { get; set; }
         public string corkCondition { get; set; }
     }
 }

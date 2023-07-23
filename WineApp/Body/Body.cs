@@ -2,12 +2,12 @@
 {
     public class Body
     {
-        public string weight { get; set; }
-        public string texture { get; set; }
-        public string mouthCoating { get; set; }
-        public string tannins { get; set; }
+        public string weightInMouth { get; set; }
+        public string textureExperience { get; set; }
+        public string mouthCoatingAbility { get; set; }
+        public string tanninExperience { get; set; }
         public string alcoholFeel { get; set; }
-        public string intensity { get; set; }
+        public string intensityExperience { get; set; }
     }
 }
 

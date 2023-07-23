@@ -2,14 +2,14 @@
 {
     public class Aroma
     {
-        public int intensity { get; set; }
-        public string complexity { get; set; }
-        public List<string> primary { get; set; }
-        public List<string> secondary { get; set; }
-        public List<string> tertiary { get; set; }
-        public List<string> offOrFault { get; set; }
-        public string balance { get; set; }
-        public string persistence { get; set; }
+        public int aromaIntensity { get; set; }
+        public string aromaComplexity { get; set; }
+        public List<string> primaryAromas { get; set; }
+        public List<string> secondaryAromas { get; set; }
+        public List<string> tertiaryAromas { get; set; }
+        public List<string> offOrFaultAromas { get; set; }
+        public string aromaBalance { get; set; }
+        public string aromaPersistence { get; set; }
     }
 
 

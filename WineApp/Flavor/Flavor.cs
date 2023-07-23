@@ -2,14 +2,14 @@
 {
     public class Flavor
     {
-        public List<string> primary { get; set; }
-        public List<string> secondary { get; set; }
-        public List<string> tertiary { get; set; }
-        public List<string> offOrFault { get; set; }
-        public string balance { get; set; }
-        public string sweetness { get; set; }
-        public string lengthAndFinish { get; set; }
-        public string complexity { get; set; }
+        public List<string> primaryFlavors { get; set; }
+        public List<string> secondaryFlavors { get; set; }
+        public List<string> tertiaryFlavors { get; set; }
+        public List<string> offOrFaultFlavors { get; set; }
+        public string flavorBalance { get; set; }
+        public string sweetnessLevel { get; set; }
+        public string finishLength { get; set; }
+        public string flavorComplexity { get; set; }
     }
 }
 

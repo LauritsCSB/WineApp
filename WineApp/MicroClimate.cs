@@ -2,16 +2,17 @@
 {
     public class MicroClimate
     {
-        public int proximityToWater { get; set; }
-        public int altitude { get; set; }
-        public string cardinalDirection { get; set; }
+        public int proximityToBodyOfWater { get; set; }
+        public int altitudeOfMicroClimate { get; set; }
+        public int latitudeOfMicroClimate { get; set; }
         public List<PrevailingClimate> monthlyTemperatureAverage { get; set; }
         public List<PrevailingClimate> monthlySunlightExposureAverage { get; set; }
         public List<PrevailingClimate> monthlyRainfallAverage { get; set; }
-        public PrevailingClimate windPattern { get; set; }
-        public List<SoilComposition> soilTypes { get; set; }
-        public string topography { get; set; }
-        public double slope { get; set; }
+        public PrevailingClimate windPatternOfMicroClimate { get; set; }
+        public List<SoilComposition.SoilDefaults> soilTypesInMicroClimate { get; set; }
+        public string topographyOfMicroClimate { get; set; }
+        public double slopeInMicroClimate { get; set; }
+        public string cardinalDirectionOfSlope { get; set; }
     }
 }
 

@@ -2,20 +2,22 @@
 {
     public class Season
     {
-        public DateOnly vintage { get; set; }
-        public List<PrevailingClimate> rainfallAverage { get; set; }
-        public List<PrevailingClimate> temperatureAverage { get; set; }
-        public List<PrevailingClimate> sunlightExposure { get; set; }
-        public List<PrevailingClimate> growingDegreeDays { get; set; }
-        public int daysOfFrost { get; set; }
-        public int daysOfHail { get; set; }
+        public DateOnly YearOfSeason { get; set; }
+        public Region regionName { get; set; }
+        public List<int> monthlyRainfallOfSeason { get; set; }
+        public List<int> monthlyTemperatureAverageInSeason { get; set; }
+        public List<PrevailingClimate> sunlightExposureInSeason { get; set; }
+        public List<PrevailingClimate> growingDegreeDaysInSeason { get; set; }
+        public int daysOfFrostInSeason { get; set; }
+        public int daysOfHailInSeason { get; set; }
         public string grapeDevelopmentEvaluation { get; set; }
-        public string cropSize { get; set; }
-        public string cropYield { get; set; }
-        public string grapeHealth { get; set; }
-        public string harvestTiming { get; set; }
+        public string sizeOfCropInSeason { get; set; }
+        public string yieldOfCropInSeason { get; set; }
+        public string grapeHealthInSeason { get; set; }
+        public string budbreakTimingOfSeason { get; set; }
+        public string harvestTimingOfSeason { get; set; }
         public string overallVintageQuality { get; set; }
-        public string agingPotential { get; set; }
+        public string agingPotentialOfWinesInSeason { get; set; }
     }
 }
 

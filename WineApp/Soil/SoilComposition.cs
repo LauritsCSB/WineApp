@@ -1,5 +1,4 @@
-﻿using System;
-namespace WineApp
+﻿namespace WineApp.SoilComposition
 {
     public class SoilComposition
     {
@@ -15,10 +14,6 @@ namespace WineApp
         public string HeatRetention(List<string> soilTypes)
         {
             //Method returning a valuation of the ability to retain and radiate heat based om the composition of soil types
-        }
-        public string SoilImpact(List<string> soilTypes)
-        {
-            //Method returning a valuation of the impact the soil composition has on crop
         }
     }
 }

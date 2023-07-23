@@ -13,6 +13,7 @@
     <None Remove="Body\" />
     <None Remove="Flavor\" />
     <None Remove="AromaAndFlavorDefaults\" />
+    <None Remove="Soil\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Appearance\" />
@@ -20,5 +21,6 @@
     <Folder Include="Body\" />
     <Folder Include="Flavor\" />
     <Folder Include="AromaAndFlavorDefaults\" />
+    <Folder Include="Soil\" />
   </ItemGroup>
 </Project>
