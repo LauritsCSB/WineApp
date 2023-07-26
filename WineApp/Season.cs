@@ -6,8 +6,8 @@
         public Region regionName { get; set; }
         public List<int> monthlyRainfallOfSeason { get; set; }
         public List<int> monthlyTemperatureAverageInSeason { get; set; }
-        public List<PrevailingClimate> sunlightExposureInSeason { get; set; }
-        public List<PrevailingClimate> growingDegreeDaysInSeason { get; set; }
+        public List<Climate> sunlightExposureInSeason { get; set; }
+        public List<Climate> growingDegreeDaysInSeason { get; set; }
         public int daysOfFrostInSeason { get; set; }
         public int daysOfHailInSeason { get; set; }
         public string grapeDevelopmentEvaluation { get; set; }
