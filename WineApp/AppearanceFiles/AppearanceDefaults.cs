@@ -1,9 +1,8 @@
-﻿using System;
-namespace WineApp.Appearance
+﻿namespace WineApp.AppearanceDefaults
 {
-    public class AppearanceDefaults
+    public static class AppearanceDefaults
     {
-        public List<String> HueColor
+        public static List<String> HueColor
         {
             get
             {
@@ -25,7 +24,7 @@ namespace WineApp.Appearance
             }
         }
 
-        public List<string> ColorIntensityVariation
+        public static List<string> ColorIntensityVariation
         {
             get
             {
@@ -38,7 +37,7 @@ namespace WineApp.Appearance
             }
         }
 
-        public List<string> RimVariation
+        public static List<string> RimVariation
         {
             get
             {
@@ -51,7 +50,7 @@ namespace WineApp.Appearance
             }
         }
 
-        public List<string> TransparancyVariation
+        public static List<string> TransparancyVariation
         {
             get
             {
@@ -64,7 +63,7 @@ namespace WineApp.Appearance
             }
         }
 
-        public List<string> EffervescenceVariation
+        public static List<string> EffervescenceVariation
         {
             get
             {
@@ -77,7 +76,7 @@ namespace WineApp.Appearance
             }
         }
 
-        public List<string> ViscosityVariation
+        public static List<string> ViscosityVariation
         {
             get
             {
@@ -90,7 +89,7 @@ namespace WineApp.Appearance
             }
         }
 
-        public List<string> SedimentVariation
+        public static List<string> SedimentVariation
         {
             get
             {
@@ -105,7 +104,7 @@ namespace WineApp.Appearance
             }
         }
 
-        public List<string> CorkConditionVariation
+        public static List<string> CorkConditionVariation
         {
             get
             {
