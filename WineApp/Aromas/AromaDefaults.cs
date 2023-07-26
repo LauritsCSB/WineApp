@@ -1,6 +1,6 @@
-﻿namespace WineApp.Aroma
+﻿namespace WineApp.Aromas
 {
-    public class AromaDefaults
+    public static class AromaDefaults
     {
 
         public static List<string> IntensityVariation
