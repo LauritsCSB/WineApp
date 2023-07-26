@@ -1,4 +1,4 @@
-﻿namespace WineApp.Appearance
+﻿namespace WineApp.Appearances
 {
     public class Appearance
     {
