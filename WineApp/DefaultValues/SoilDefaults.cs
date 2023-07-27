@@ -1,4 +1,4 @@
-﻿namespace WineApp.SoilComposition
+﻿namespace WineApp.DefaultValues
 {
     public static class SoilDefaults
     {

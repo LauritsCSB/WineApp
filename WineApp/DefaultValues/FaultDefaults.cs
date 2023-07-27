@@ -1,4 +1,4 @@
-﻿namespace WineApp.SharedAromaAndFlavorDefaults
+﻿namespace WineApp.DefaultValues
 {
     public static class FaultDefaults
     {

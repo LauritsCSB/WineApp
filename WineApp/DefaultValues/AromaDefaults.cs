@@ -1,4 +1,4 @@
-﻿namespace WineApp.Aromas
+﻿namespace WineApp.DefaultValues
 {
     public static class AromaDefaults
     {

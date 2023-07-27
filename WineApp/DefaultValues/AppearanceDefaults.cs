@@ -1,4 +1,4 @@
-﻿namespace WineApp.Appearances
+﻿namespace WineApp.DefaultValues
 {
     public static class AppearanceDefaults
     {

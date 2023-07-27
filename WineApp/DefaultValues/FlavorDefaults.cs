@@ -1,6 +1,6 @@
-﻿namespace WineApp.Flavor
+﻿namespace WineApp.DefaultValues
 {
-    public class FlavorDefaults
+    public static class FlavorDefaults
     {
         public static List<string> BalanceVariation
         {

@@ -1,6 +1,6 @@
-﻿namespace WineApp.Body
+﻿namespace WineApp.DefaultValues
 {
-    public class BodyDefaults
+    public static class BodyDefaults
     {
         public static List<string> WeightVariation
         {
