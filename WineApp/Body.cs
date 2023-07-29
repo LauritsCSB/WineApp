@@ -1,4 +1,4 @@
-﻿namespace WineApp.Body
+﻿namespace WineApp
 {
     public class Body
     {
