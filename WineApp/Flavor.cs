@@ -1,15 +1,15 @@
-﻿namespace WineApp.Flavor
+﻿namespace WineApp
 {
     public class Flavor
     {
-        public List<string> primaryFlavors { get; set; }
-        public List<string> secondaryFlavors { get; set; }
-        public List<string> tertiaryFlavors { get; set; }
-        public List<string> offOrFaultFlavors { get; set; }
-        public string flavorBalance { get; set; }
-        public string sweetnessLevel { get; set; }
-        public string finishLength { get; set; }
-        public string flavorComplexity { get; set; }
+        public List<string> PrimaryFlavors { get; set;}
+        public List<string> SecondaryFlavors { get; set; }
+        public List<string> TertiaryFlavors { get; set; }
+        public List<string> OffOrFaultFlavors { get; set; }
+        public string FlavorBalance { get; set; }
+        public string SweetnessLevel { get; set; }
+        public string FinishLength { get; set; }
+        public string FlavorComplexity { get; set; }
     }
 }
 
