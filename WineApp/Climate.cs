@@ -1,17 +1,18 @@
-﻿using System;
-namespace WineApp
+﻿namespace WineApp
 {
-    public class PrevailingClimate
+    public class Climate
     {
-        public List<int> temperatureMin { get; set; }
-        public List<int> temperatureMax { get; set; }
-        public List<double> temperatureAverage { get; set; }
-        public int averageGDD { get; set; }
-        public int sunshineHoursAverage { get; set; }
-        public int rainfallAverage { get; set; }
-        public List<int> diurnalTemperatureVariation { get; set; }
-        public List<int> humidutyLevelAverage { get; set; }
-        public List<string> frostRiskAverage { get; set; }
+        public Region Region { get; set; }
+        public List<double> MonthlyTemperature { get; set; }
+        public List<double> DiurnalTemperatureVariation { get; set; }
+        public int SunlightHours { get; set; }
+        public int Rainfall { get; set; }
+        public List<int> MonthlyHumidity { get; set; }
+        public string WindPattern { get; set; }
+        public int AverageGDD { get; set; }
+        public List<int> HumidutyLevelAverage { get; set; }
+        public List<string> FrostRiskAverage { get; set; }
+        public int LengthOfGrowingSeason { get; set; }
     }
 }
 
