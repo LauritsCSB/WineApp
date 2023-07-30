@@ -2,11 +2,9 @@
 {
     public class Country
     {
-        public string nameOfCountry { get; set; }
-        public string lawAndRegulations { get; set; }
-        public PrevailingClimate generalClimateOfCountry { get; set; }
-        public SoilComposition generalSoilCompositionOfCountry { get; set; }
-        public Terroir generalTerroirOfCountry { get; set; }
+        public string NameOfCountry { get; set; }
+        public string LawAndRegulations { get; set; }
+        public string HistoryAndCulture { get; set; }
     }
 }
 
