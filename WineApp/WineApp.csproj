@@ -8,19 +8,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Aroma\" />
-    <None Remove="Body\" />
-    <None Remove="Flavor\" />
-    <None Remove="AromaAndFlavorDefaults\" />
-    <None Remove="Soil\" />
-    <None Remove="AppearanceFiles\" />
+    <None Remove="DefaultValues\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Aroma\" />
-    <Folder Include="Body\" />
-    <Folder Include="Flavor\" />
-    <Folder Include="AromaAndFlavorDefaults\" />
-    <Folder Include="Soil\" />
-    <Folder Include="AppearanceFiles\" />
+    <Folder Include="DefaultValues\" />
   </ItemGroup>
 </Project>
