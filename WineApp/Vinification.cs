@@ -1,30 +1,28 @@
-﻿using System;
-namespace WineApp
+﻿namespace WineApp
 {
     public class Vinification
     {
-        public List<Grape> grapeSelection { get; set; }
-        public Season harvestDate { get; set; }
-        public string harvestMethod { get; set; }
-        public string sortingMethod { get; set; }
-        public bool mechanicalDestemming { get; set; }
-        public string crushingMethod { get; set; }
-        public string macerationMethod { get; set; }
-        public string macerationTime { get; set; }
-        public string fermentationMethod { get; set; }
-        public string yeastStrain { get; set; }
-        public string fermentationTemperature { get; set; }
-        public string fermentationDuration { get; set; }
-        public bool malolacticFermentation { get; set; }
-        public bool bottleFermentation { get; set; }
-        public bool carbonicFermentation { get; set; }
-        public List<string> extractionMethods { get; set; }
-        public string pressingTechnique { get; set; }
-        public List<string> filtrationTechniques { get; set; }
-        public List<string> stabilizationTechniques { get; set; }
-        public string closingMethod { get; set; }
-        public List<string> agingMethods { get; set; }
-        public int agingUntilRelease { get; set; }
+        public Season Season { get; set; }
+        public string HarvestMethod { get; set; }
+        public string SortingMethod { get; set; }
+        public bool MechanicalDestemming { get; set; }
+        public string CrushingMethod { get; set; }
+        public string MacerationMethod { get; set; }
+        public string MacerationTime { get; set; }
+        public string FermentationMethod { get; set; }
+        public string YeastStrain { get; set; }
+        public string FermentationTemperature { get; set; }
+        public string FermentationDuration { get; set; }
+        public bool MalolacticFermentation { get; set; }
+        public bool BottleFermentation { get; set; }
+        public bool CarbonicFermentation { get; set; }
+        public List<string> ExtractionMethods { get; set; }
+        public string PressingTechnique { get; set; }
+        public List<string> FiltrationTechniques { get; set; }
+        public List<string> StabilizationTechniques { get; set; }
+        public string ClosingMethod { get; set; }
+        public List<string> AgingMethods { get; set; }
+        public int AgingBeforeRelease { get; set; }
     }
 }
 
