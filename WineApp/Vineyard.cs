@@ -2,17 +2,18 @@
 {
     public class Vineyard
     {
-        public string nameOfVineyard { get; set; }
-        public string locationOfVineyard { get; set; }
-        public List<Grape> grapeVarietiesInProduction { get; set; }
-        public DateOnly ageOfVineYard { get; set; }
-        public int sizeOfVineyard { get; set; }
-        public string vineAgeOnVineyard { get; set; }
-        public int cropSizeAverage { get; set; }
-        public int cropYieldAverage { get; set; }
-        public string reputationAndQualityOfVineyard { get; set; }
-        public string historicalSignificanceOfVineyard { get; set; }
-        public List<string> notableWinesFromVineyard { get; set; }
+        public string Name { get; set; }
+        public string Address { get; set; }
+        public Appelation Appelation { get; set; }
+        public Region Region { get; set; }
+        public List<string> SoilTypes { get; set; }
+        public int Altitude { get; set; }
+        public int Latitude { get; set; }
+        public int ProximityToBodyOfWater { get; set; }
+        public Climate Climate { get; set; }
+        public string Topography { get; set; }
+        public double SlopeAngle { get; set; }
+        public string CardinalDirectionOfSlope { get; set; }
     }
 }
 
