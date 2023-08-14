@@ -1,4 +1,4 @@
-﻿namespace WineApp.Aromas
+﻿namespace WineApp
 {
     public class Aroma
     {
