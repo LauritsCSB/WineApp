@@ -2,122 +2,74 @@
 {
     public static class AppearanceDefaults
     {
-        public static List<String> HueColor
+        public enum HueColor
         {
-            get
-            {
-                return new List<String>()
-                {
-                    "Straw",
-                    "Yellow",
-                    "Gold",
-                    "Brown",
-                    "Amber",
-                    "Copper",
-                    "Salmon",
-                    "Pink",
-                    "Ruby",
-                    "Purple",
-                    "Garnet",
-                    "Tawny"
-                };
-            }
+            Straw,
+            Yellow,
+            Gold,
+            Brown,
+            Amber,
+            Copper,
+            Salmon,
+            Pink,
+            Ruby,
+            Purple,
+            Garnet,
+            Tawny
         }
 
-        public static List<string> ColorIntensityVariation
-        {
-            get
-            {
-                return new List<string>()
-                {
-                    "Pale",
-                    "Medium",
-                    "Deep"
-                };
-            }
+        public enum ColorIntensityVariation
+        {    
+            Pale,
+            Medium,
+            Deep      
         }
 
-        public static List<string> RimVariation
+        public enum RimVariation
         {
-            get
-            {
-                return new List<string>()
-                {
-                    "Tight",
-                    "Medium",
-                    "Wide"
-                };
-            }
+            Tight,
+            Medium,
+            Wide       
         }
 
-        public static List<string> TransparancyVariation
+        public enum TransparancyVariation
         {
-            get
-            {
-                return new List<string>()
-                {
-                    "Clear",
-                    "Hazy",
-                    "Opaque"
-                };
-            }
+            Clear,
+            Hazy,
+            Opaque      
         }
 
-        public static List<string> EffervescenceVariation
+        public enum EffervescenceVariation
         {
-            get
-            {
-                return new List<string>()
-                {
-                    "Fine and Delicate",
-                    "Lively and Vigorous",
-                    "Robust and Bountiful"
-                };
-            }
+            Fine,
+            Lively,
+            Robust,
         }
 
-        public static List<string> ViscosityVariation
+        public enum ViscosityVariation
         {
-            get
-            {
-                return new List<string>()
-                {
-                    "Low",
-                    "Medium",
-                    "High"
-                };
-            }
+            Low,
+            Medium,
+            High       
         }
 
-        public static List<string> SedimentVariation
+        public enum SedimentVariation
         {
-            get
-            {
-                return new List<string>()
-                {
-                    "No Sediment",
-                    "Light Sediment",
-                    "Medium Sediment",
-                    "Heavy Sediment",
-                    "Tartrate Crystals"
-                };
-            }
+            None,
+            Light,
+            Medium,
+            Heavy,
+            Crystals
         }
 
-        public static List<string> CorkConditionVariation
+        public enum CorkConditionVariation
         {
-            get
-            {
-                return new List<string>()
-                {
-                    "Excellent Condition",
-                    "Slight Cork Taint",
-                    "Moderate Cork Taint",
-                    "Severe Cork Taint",
-                    "Dry Cork",
-                    "Cork Breakage"
-                };
-            }
+            Excellent,
+            SlightTaint,
+            ModerateTaint,
+            SevereTaint,
+            Dry,
+            Broken
         }
     }
 }
