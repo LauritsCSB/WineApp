@@ -2,61 +2,36 @@
 {
     public static class AromaDefaults
     {
-
-        public static List<string> IntensityVariation
+        public enum IntensityVariation
         {
-            get
-            {
-                return new List<string>()
-                {
-                    "Light",
-                    "Medium",
-                    "Strong",
-                    "Intense"
-                };
-            }
+            Light,
+            Medium,
+            Strong,
+            Intense
         }
 
-        public static List<string> ComplexityVariation
+        public enum ComplexityVariation
         {
-            get
-            {
-                return new List<string>()
-                {
-                    "Simple",
-                    "Moderate",
-                    "High",
-                    "Profound"
-                };
-            }
+            Simple,
+            Moderate,
+            High,
+            Profound
         }
 
-        public static List<string> BalanceVariation
+        public enum BalanceVariation
         {
-            get
-            {
-                return new List<string>()
-                {
-                    "Well-Balanced",
-                    "Balanced",
-                    "Slightly Off-Balance",
-                    "Off Balance"
-                };
-            }
+            WellBalanced,
+            Balanced,
+            SlightlyOffBalance,
+            OffBalance
         }
 
-        public static List<string> PersistenceVariation
+        public enum PersistenceVariation
         {
-            get
-            {
-                return new List<string>()
-                {
-                    "Short",
-                    "Medium",
-                    "Long",
-                    "Very Long"
-                };
-            }
+            Short,
+            Medium,
+            Long,
+            VeryLong
         }
     }
 }
