@@ -2,87 +2,53 @@
 {
     public static class BodyDefaults
     {
-        public static List<string> WeightVariation
+        public enum Weight
         {
-            get
-            {
-                return new List<string>()
-                {
-                    "Light",
-                    "Medium",
-                    "Heavy"
-                };
-            }
+            Light,
+            Medium,
+            Heavy    
         }
 
-        public static List<string> TextureVariation
+        public enum Texture
         {
-            get
-            {
-                return new List<string>()
-                {
-                    "Smooth",
-                    "Crisp",
-                    "Silky",
-                    "Chewy",
-                    "Lively"
-                };
-            }
+            Smooth,
+            Crisp,
+            Silky,
+            Chewy,
+            Lively
         }
 
-        public static List<string> MouthCoatingVariation
+        public enum MouthCoating
         {
-            get
-            {
-                return new List<string>()
-                {
-                    "Thin",
-                    "Medium",
-                    "Rich",
-                    "Creamy"
-                };
-            }
+            
+            Thin,
+            Medium,
+            Rich,
+            Creamy
+                
         }
 
-        public static List<string> TanninsVariation
+        public enum Tannins
         {
-            get
-            {
-                return new List<string>()
-                {
-                    "Low",
-                    "Moderate",
-                    "High",
-                    "Ultra-High"
-                };
-            }
+            Low,
+            Moderate,
+            High,
+            VeryHigh
         }
 
-        public static List<string> AlcoholFeelVariation
+        public enum AlcoholFeel
         {
-            get
-            {
-                return new List<string>()
-                {
-                    "Light",
-                    "Moderate",
-                    "Warm",
-                    "Hot"
-                };
-            }
+            Light,
+            Moderate,
+            Warm,
+            Hot
         }
 
-        public static List<string> IntensityVariation
+        public enum Intensity
         {
-            get
-            {
-                return new List<string>()
-                {
-                    "Light",
-                    "Moderate",
-                    "Bold"
-                };
-            }
+            Light,
+            Moderate,
+            Bold
         }
     }
 }
