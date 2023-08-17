@@ -2,36 +2,24 @@
 { 
     public static class TertiaryDefaults
     {
-        public static List<string> OakAging
+        public enum Oak
         {
-            get
-            {
-                return new List<string>()
-                {
-                    "Vanilla",
-                    "Coconut",
-                    "Baking Spices",
-                    "Cigar Box",
-                    "Smoke",
-                    "Dill"
-                };
-            }
+            Vanilla,
+            Coconut,
+            BakingSpices,
+            CigarBox,
+            Smoke,
+            Dill
         }
 
-        public static List<string> GeneralAging
+        public enum GeneralAging
         {
-            get
-            {
-                return new List<string>()
-                {
-                    "Dried Fruit",
-                    "Nutty Flavors",
-                    "Tobacco",
-                    "Coffee",
-                    "Cocoa",
-                    "Leather"
-                };
-            }
+            DriedFruit,
+            NuttyFlavors,
+            Tobacco,
+            Coffee,
+            Cocoa,
+            Leather
         }
     }
 }
