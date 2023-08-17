@@ -18,7 +18,7 @@
             Tawny
         }
 
-        public enum ColorIntensityVariation
+        public enum ColorIntensity
         {    
             Pale,
             Medium,
@@ -32,28 +32,28 @@
             Wide       
         }
 
-        public enum TransparancyVariation
+        public enum Transparancy
         {
             Clear,
             Hazy,
             Opaque      
         }
 
-        public enum EffervescenceVariation
+        public enum Effervescence
         {
             Fine,
             Lively,
             Robust,
         }
 
-        public enum ViscosityVariation
+        public enum Viscosity
         {
             Low,
             Medium,
             High       
         }
 
-        public enum SedimentVariation
+        public enum Sediment
         {
             None,
             Light,
@@ -62,7 +62,7 @@
             Crystals
         }
 
-        public enum CorkConditionVariation
+        public enum CorkCondition
         {
             Excellent,
             SlightTaint,
