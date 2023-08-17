@@ -2,7 +2,7 @@
 {
     public static class AromaDefaults
     {
-        public enum IntensityVariation
+        public enum Intensity
         {
             Light,
             Medium,
@@ -10,7 +10,7 @@
             Intense
         }
 
-        public enum ComplexityVariation
+        public enum Complexity
         {
             Simple,
             Moderate,
@@ -18,7 +18,7 @@
             Profound
         }
 
-        public enum BalanceVariation
+        public enum Balance
         {
             WellBalanced,
             Balanced,
@@ -26,7 +26,7 @@
             OffBalance
         }
 
-        public enum PersistenceVariation
+        public enum Persistence
         {
             Short,
             Medium,
