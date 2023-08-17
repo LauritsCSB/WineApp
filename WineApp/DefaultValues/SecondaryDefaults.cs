@@ -2,20 +2,14 @@
 {
     public static class SecondaryDefaults
     {
-        public static List<string> Microbial
+        public enum Microbial
         {
-            get
-            {
-                return new List<string>()
-                {
-                    "Butter",
-                    "Cream",
-                    "Sourdough",
-                    "Lager",
-                    "Truffle",
-                    "Mushroom"
-                };
-            }
+            Butter,
+            Cream,
+            Sourdough,
+            Lager,
+            Truffle,
+            Mushroom
         }
     }
 }
