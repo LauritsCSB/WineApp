@@ -2,71 +2,41 @@
 {
     public static class FaultDefaults
     {
-        public static List<string> CorkTaint
+        public enum CorkTaint
         {
-            get
-            {
-                return new List<string>()
-                {
-                    "Musty Cardboard",
-                    "Wet Dog"
-                };
-            }
+            MustyCardboard,
+            WetDog
         }
 
-        public static List<string> Cooked
+        public enum Cooked
         {
-            get
-            {
-                return new List<string>()
-                {
-                    "Toffee",
-                    "Stewed Fruit"
-                };
-            }
+            Toffee,
+            StewedFruit
         }
 
-        public static List<string> VolatilyAcidity
+        public enum VolatilyAcidity
         {
-            get
-            {
-                return new List<string>()
-                {
-                    "Vinegar",
-                    "Nail Polish Remover"
-                };
-            }
+            Vinegar,
+            NailPolishRemover
         }
 
-        public static List<string> SulfidesAndMerceptans
+        public enum SulfidesAndMerceptans
         {
-            get
-            {
-                return new List<string>()
-                {
-                    "Cured Meat",
-                    "Boiled Eggs",
-                    "Burnt Rubber",
-                    "Lit Match",
-                    "Garlic",
-                    "Onion",
-                    "Cat Pee"
-                };
-            }
+            CuredMeat,
+            BoiledEggs,
+            BurntRubber,
+            LitMatch,
+            Garlic,
+            Onion,
+            CatPee
         }
 
-        public static List<string> Brettanomyce
+        public enum Brettanomyce
         {
-            get
-            {
-                return new List<string>()
-                {
-                    "Black Cardamon",
-                    "Band-Aid",
-                    "Sweaty Leather Saddle",
-                    "Horse Manure"
-                };
-            }
+            BlackCardamon,
+            BandAid,
+            SweatyLeatherSaddle,
+            HorseManure
         }
     }
 }
