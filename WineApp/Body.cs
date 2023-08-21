@@ -2,12 +2,12 @@
 {
     public class Body
     {
-        public string weightInMouth { get; set; }
-        public string textureExperience { get; set; }
-        public string mouthCoatingAbility { get; set; }
-        public string tanninExperience { get; set; }
-        public string alcoholFeel { get; set; }
-        public string intensityExperience { get; set; }
+        public DefaultValues.BodyDefaults.Weight WeightInMouth { get; set; }
+        public DefaultValues.BodyDefaults.Texture TextureExperience { get; set; }
+        public DefaultValues.BodyDefaults.MouthCoating MouthCoatingAbility { get; set; }
+        public DefaultValues.BodyDefaults.Tannins TanninExperience { get; set; }
+        public DefaultValues.BodyDefaults.AlcoholFeel AlcoholFeel { get; set; }
+        public DefaultValues.BodyDefaults.Intensity IntensityExperience { get; set; }
     }
 }
 

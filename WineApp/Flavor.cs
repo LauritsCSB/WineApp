@@ -2,14 +2,14 @@
 {
     public class Flavor
     {
-        public List<string> PrimaryFlavors { get; set;}
-        public List<string> SecondaryFlavors { get; set; }
-        public List<string> TertiaryFlavors { get; set; }
-        public List<string> OffOrFaultFlavors { get; set; }
-        public string FlavorBalance { get; set; }
-        public string SweetnessLevel { get; set; }
-        public string FinishLength { get; set; }
-        public string FlavorComplexity { get; set; }
+        public PrimaryValues PrimaryFlavors { get; set;}
+        public DefaultValues.SecondaryDefaults.Microbial SecondaryFlavors { get; set; }
+        public TertiaryValues TertiaryFlavors { get; set; }
+        public OffOrFaultValues OffOrFaultFlavors { get; set; }
+        public DefaultValues.FlavorDefaults.Balance FlavorBalance { get; set; }
+        public DefaultValues.FlavorDefaults.Sweetness SweetnessLevel { get; set; }
+        public DefaultValues.FlavorDefaults.Finish FinishLength { get; set; }
+        public DefaultValues.FlavorDefaults.Complexity FlavorComplexity { get; set; }
     }
 }
 

@@ -2,14 +2,14 @@
 {
     public class Aroma
     {
-        public string Intensity { get; set; }
-        public string Complexity { get; set; }
-        public List<string> PrimaryAromas { get; set; }
-        public List<string> SecondaryAromas { get; set; }
-        public List<string> TertiaryAromas { get; set; }
-        public List<string> OffOrFaultAromas { get; set; }
-        public string Balance { get; set; }
-        public string Persistence { get; set; }
+        public DefaultValues.AromaDefaults.Intensity Intensity { get; set; }
+        public DefaultValues.AromaDefaults.Complexity Complexity { get; set; }
+        public PrimaryValues PrimaryAromas { get; set; }
+        public DefaultValues.SecondaryDefaults.Microbial SecondaryAromas { get; set; }
+        public TertiaryValues TertiaryAromas { get; set; }
+        public OffOrFaultValues OffOrFaultAromas { get; set; }
+        public DefaultValues.AromaDefaults.Balance Balance { get; set; }
+        public DefaultValues.AromaDefaults.Persistence Persistence { get; set; }
     }
 }
 
