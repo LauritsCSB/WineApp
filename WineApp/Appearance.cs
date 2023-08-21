@@ -2,14 +2,14 @@
 {
     public class Appearance
     {
-        public string HueColor { get; set; }
-        public string ColorIntensity { get; set; }
-        public string ColorRimVariation { get; set; }
-        public string WineTransparancy { get; set; }
-        public string EffervescenceIntensity { get; set; }
-        public string Viscosity { get; set; }
-        public string SedimentAmount { get; set; }
-        public string CorkCondition { get; set; }
+        public DefaultValues.AppearanceDefaults.HueColor HueColor { get; set; } //TODO change other fields like this
+        public DefaultValues.AppearanceDefaults.ColorIntensity ColorIntensity { get; set; }
+        public DefaultValues.AppearanceDefaults.RimVariation RimVariation { get; set; }
+        public DefaultValues.AppearanceDefaults.Transparancy Transparancy { get; set; }
+        public DefaultValues.AppearanceDefaults.Effervescence Effervescence { get; set; }
+        public DefaultValues.AppearanceDefaults.Viscosity Viscosity { get; set; }
+        public DefaultValues.AppearanceDefaults.Sediment Sediment { get; set; }
+        public DefaultValues.AppearanceDefaults.CorkCondition CorkCondition { get; set; }
     }
 }
 
