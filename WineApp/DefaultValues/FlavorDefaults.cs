@@ -4,31 +4,40 @@
     {
         public enum Balance
         {
-                        WellBalanced,
-                        Balanced,
-                        SlightlyOffBalance,
-                        OffBalance
-                    
+            WellBalanced,
+            Balanced,
+            SlightlyOffBalance,
+            OffBalance
         }
 
         public enum Sweetness
         {
-                        Dry,
-                        OffDry,
-                        MediumDry,
-                        MediumSweet,
-                        Sweet,
-                        Dessert
+            Dry,
+            OffDry,
+            MediumDry,
+            MediumSweet,
+            Sweet,
+            Dessert
         }
 
         public enum Finish
         {
-                        Short,
-                        Medium,
-                        Long,
-                        Lingering,
-                        Complex,
-                        Fading
+            Short,
+            Medium,
+            Long,
+            Lingering,
+            Complex,
+            Fading
+        }
+
+        public enum Complexity
+        {
+            Basic,
+            Intermediate,
+            High,
+            Profound,
+            Layered,
+            Profound
         }
     }
 }
