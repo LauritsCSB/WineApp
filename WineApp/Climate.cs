@@ -1,8 +1,7 @@
 ﻿namespace WineApp
 {
-    public class Climate
+    public class Climate 
     {
-        public Region Region { get; set; }
         public List<double> MonthlyAverageTemperature { get; set; }
         public List<double> DiurnalTemperatureVariation { get; set; }
         public List<double> MonthlySunlightHours { get; set; }
