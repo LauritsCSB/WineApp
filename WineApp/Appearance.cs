@@ -2,14 +2,16 @@
 {
     public class Appearance
     {
-        public DefaultValues.AppearanceDefaults.HueColor HueColor { get; set; } //TODO change other fields like this
-        public DefaultValues.AppearanceDefaults.ColorIntensity ColorIntensity { get; set; }
+        public DefaultValues.AppearanceDefaults.Clarity Clarity { get; set; }
+        public DefaultValues.AppearanceDefaults.Brightness Brightness { get; set; }
+        public DefaultValues.AppearanceDefaults.Concentration Concentration { get; set; }
+        public bool Effervescence { get; set; }
+        public bool Sediment { get; set; }
+        public DefaultValues.AppearanceDefaults.Color Color { get; set; }
+        public DefaultValues.AppearanceDefaults.Hue Hue { get; set; }
         public DefaultValues.AppearanceDefaults.RimVariation RimVariation { get; set; }
-        public DefaultValues.AppearanceDefaults.Transparancy Transparancy { get; set; }
-        public DefaultValues.AppearanceDefaults.Effervescence Effervescence { get; set; }
+        public DefaultValues.AppearanceDefaults.Stain Stain { get; set; }
         public DefaultValues.AppearanceDefaults.Viscosity Viscosity { get; set; }
-        public DefaultValues.AppearanceDefaults.Sediment Sediment { get; set; }
-        public DefaultValues.AppearanceDefaults.CorkCondition CorkCondition { get; set; }
     }
 }
 

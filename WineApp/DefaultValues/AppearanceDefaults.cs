@@ -2,64 +2,77 @@
 {
     public static class AppearanceDefaults
     {
-        public enum HueColor
+        public enum Clarity
         {
-            Straw,
-            Yellow,
-            Gold,
-            Brown,
-            Amber,
-            Copper,
-            Salmon,
-            Pink,
-            Ruby,
-            Purple,
-            Garnet,
-            Tawny
+            Clear,
+            SlightlyCloudy,
+            Cloudy
         }
 
-        public enum ColorIntensity
+        public enum Brightness
+        {
+            Dull,
+            Bright,
+            Brilliant
+        }
+
+        public enum Concentration
         {    
             Pale,
             Medium,
-            Deep      
+            Deep,
+            Translucent,
+            Opaque
+        }
+
+        public enum Color
+        {
+            LemonGreen,
+            Lemon,
+            Gold,
+            Amber,
+            Brown,
+            Pink,
+            PinkOrange,
+            Orange,
+            Purple,
+            Ruby,
+            Gernet,
+            Tawny
+        }
+
+        public enum Hue
+        {
+            Silver,
+            Green,
+            Orange,
+            Blue,
+            Ruby,
+            Garnet,
+            Brown
         }
 
         public enum RimVariation
         {
+            None,
             Tight,
             Medium,
-            Wide       
+            Wide
         }
 
-        public enum Transparancy
+        public enum Stain
         {
-            Clear,
-            Hazy,
-            Opaque      
-        }
-
-        public enum Effervescence
-        {
-            Fine,
-            Lively,
-            Robust,
+            None,
+            Light,
+            Medium,
+            Heavy
         }
 
         public enum Viscosity
         {
             Low,
             Medium,
-            High       
-        }
-
-        public enum Sediment
-        {
-            None,
-            Light,
-            Medium,
-            Heavy,
-            Crystals
+            High
         }
 
         public enum CorkCondition
