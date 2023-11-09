@@ -10,6 +10,8 @@
         public List<double> MonthlyTemperatureLow { get; set; }
         public List<double> MonthlyRainfall { get; set; }
 
+        public DateOnly HarvestDate { get; set; }
+
         public bool FrostDuringBudbreak { get; set; }
         public int SpringDaysOfFrost { get; set; }
         public int AutumnDaysOfFrost { get; set; }
