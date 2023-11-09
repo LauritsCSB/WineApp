@@ -10,16 +10,6 @@
             OffBalance
         }
 
-        public enum Sweetness
-        {
-            Dry,
-            OffDry,
-            MediumDry,
-            MediumSweet,
-            Sweet,
-            Dessert
-        }
-
         public enum Finish
         {
             Short,
@@ -32,12 +22,9 @@
 
         public enum Complexity
         {
-            Basic,
-            Intermediate,
-            High,
-            Profound,
-            Layered,
-            Profound
+            Low,
+            Moderate,
+            Complex
         }
     }
 }
