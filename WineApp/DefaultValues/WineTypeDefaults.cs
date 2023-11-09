@@ -4,11 +4,11 @@
     {
         public enum WineTypes
         {
-            Red,
+            Sparkling,
             White,
             Rosé,
+            Red,
             Orange,
-            Sparkling,
             Fortified,
             Ice,
             Dessert
