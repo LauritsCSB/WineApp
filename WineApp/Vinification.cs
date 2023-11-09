@@ -8,11 +8,11 @@
         public bool MechanicalDestemming { get; set; }
         public string CrushingMethod { get; set; }
         public string MacerationMethod { get; set; }
-        public string MacerationTime { get; set; }
+        public TimeOnly MacerationTime { get; set; }
         public string FermentationMethod { get; set; }
         public string YeastStrain { get; set; }
         public string FermentationTemperature { get; set; }
-        public string FermentationDuration { get; set; }
+        public TimeOnly FermentationDuration { get; set; }
         public bool MalolacticFermentation { get; set; }
         public bool BottleFermentation { get; set; }
         public bool CarbonicFermentation { get; set; }
@@ -22,7 +22,7 @@
         public List<string> StabilizationTechniques { get; set; }
         public string ClosingMethod { get; set; }
         public List<string> AgingMethods { get; set; }
-        public int AgingBeforeRelease { get; set; }
+        public TimeOnly AgingBeforeRelease { get; set; }
     }
 }
 
