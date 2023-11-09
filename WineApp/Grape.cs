@@ -3,7 +3,7 @@
     public class Grape
     {
         public string Name { get; set; }
-        public Appearance Appearance { get; set; } //TODO Check API's and data for this info
+        public Appearance Appearance { get; set; }
         public Aroma Aroma { get; set; }
         public Flavor Flavor { get; set; }
         public Body Body { get; set; }
