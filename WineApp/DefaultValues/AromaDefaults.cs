@@ -4,34 +4,15 @@
     {
         public enum Intensity
         {
-            Light,
-            Medium,
-            Strong,
-            Intense
-        }
-
-        public enum Complexity
-        {
-            Simple,
+            Delicate,
             Moderate,
-            High,
-            Profound
+            Powerfull
         }
 
-        public enum Balance
+        public enum AgeAssessment
         {
-            WellBalanced,
-            Balanced,
-            SlightlyOffBalance,
-            OffBalance
-        }
-
-        public enum Persistence
-        {
-            Short,
-            Medium,
-            Long,
-            VeryLong
+            Youthfull,
+            Vinous
         }
     }
 }
