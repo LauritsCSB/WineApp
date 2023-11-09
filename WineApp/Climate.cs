@@ -10,6 +10,7 @@
         public string WindPatternDescription { get; set; }
         public int GDD { get; set; }
         public List<string> MonthlyFrostRisk { get; set; }
+        public List<double> LightIntensity { get; set; }
     }
 }
 
