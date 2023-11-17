@@ -5,24 +5,14 @@
         public enum Clarity
         {
             Clear,
-            SlightlyCloudy,
-            Cloudy
+            Hazy
         }
 
-        public enum Brightness
+        public enum Intensity
         {
-            Dull,
-            Bright,
-            Brilliant
-        }
-
-        public enum Concentration
-        {    
             Pale,
             Medium,
-            Deep,
-            Translucent,
-            Opaque
+            Deep
         }
 
         public enum Color
@@ -41,48 +31,13 @@
             Tawny
         }
 
-        public enum Hue
+        public enum Other
         {
-            Silver,
-            Green,
-            Orange,
-            Blue,
-            Ruby,
-            Garnet,
-            Brown
-        }
-
-        public enum RimVariation
-        {
-            None,
-            Tight,
-            Medium,
-            Wide
-        }
-
-        public enum Stain
-        {
-            None,
-            Light,
-            Medium,
-            Heavy
-        }
-
-        public enum Viscosity
-        {
-            Low,
-            Medium,
-            High
-        }
-
-        public enum CorkCondition
-        {
-            Excellent,
-            SlightTaint,
-            ModerateTaint,
-            SevereTaint,
-            Dry,
-            Broken
+            Legs,
+            Tears,
+            Deposit,
+            Pétillance,
+            Bubbles
         }
     }
 }
