@@ -3,11 +3,11 @@
     public class Grape
     {
         public string Name { get; set; }
-        public Appearance Appearance { get; set; }
-        public Aroma Aroma { get; set; }
-        public Flavor Flavor { get; set; }
-        public Body Body { get; set; }
+        public string Origin { get; set; }
+        public Climate IdealClimate { get; set; }
+        public PrimaryValues CommonPrimaryNotes { get; set; }
+        public List<Region> TypicalRegions { get; set; }
         public DefaultValues.WineTypeDefaults.WineTypes WineTypes { get; set; }
-        public int AgingPotential { get; set; }
+        public List<string> FoodPairings { get; set; }
     }
 }
