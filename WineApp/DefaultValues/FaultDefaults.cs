@@ -14,7 +14,7 @@
             StewedFruit
         }
 
-        public enum VolatilyAcidity
+        public enum VolatileAcidity
         {
             Vinegar,
             NailPolishRemover
